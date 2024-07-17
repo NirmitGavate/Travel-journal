@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+body {
+    background-color: rgb(184, 209, 217);
+}
+.card {
+    background-color: white;
+    width: 550px;
+    height: 704px;
+    margin: 100px auto;
+}
+nav {
+    width: 550px;
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > span {
+    color: white;
+    font-size: 15px;
+    font-weight: 500; 
+}
+.nav-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px; /* Add margin to separate logo and text */
+}
+
+.place-img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    
+}
+.place-info >p{
+    font-weight: 400;
+    font-size: 11px;
+}
+.place{
+    display: flex;
+    margin: 20px auto 36px 40px;
+}
+.place-name{
+    font-weight: 400;
+    font-size: 14px;
+}
+.place-name,.maps,.pin{
+    margin-top: 19px;
+}
+.maps{
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
+    color:#918E9B;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.pin{
+    width: 18px;
+    height: 14px;
+    margin-left: 19px;
+}
+.place-info h2{
+    font-weight: 700;
+    font-size: 25px;
+    color: #2B283A;
+    margin-left: 19px;
+    margin-top: 9px;
+}
+.place-info p{
+    font-weight: 700;
+    font-size: 11px;
+    color: #2B283A;
+    margin-left: 19px;
+    margin-top: 12px;
+
+    
+}
+.place-desc{
+    font-weight: 400;
+    font-size: 11px;
+    color: #2B283A;
+    margin: 0px 25px;
+}
+
+
